@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-propio{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 999;
+}
+
+.navbar-nav a:hover{
+    color: lightgray !important;
+}
+
+.bg-footer{
+    background-color: black;
+/*     width: 100%;
+    padding:30px; */
+}
+
+.lista-footer{
+    list-style: none;
+}
+
+.texto-footer{
+    color: white;
+}
+
+.body-estilo{
+    background: url(../assets/localFondo.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.texto-nosotros{
+    color: black;
+}
+
+.img-1 {
+    object-fit: fill;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
+}
+
+.img-2 {
+    object-fit: fill;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
+}
+
+.img-3 {
+    object-fit: fill;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
+}
+
+.img-4 {
+    object-fit: fill;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
+}
